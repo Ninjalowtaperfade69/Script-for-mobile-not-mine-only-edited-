@@ -8,24 +8,19 @@ if not syn or not protectgui then
 end 
 
 local SilentAimSettings = {
-    Enabled = True,
-    
-    ClassName = "Universal Silent Aim - Averiias, Stefanuk12, xaxa",
-    ToggleKey = "P",
-    
-    TeamCheck = True,
-    VisibleCheck = True, 
-    TargetPart = "HumanoidRootPart",
-    SilentAimMethod = "FindPartOnRayWithIgnoreList",
-    
-    FOVRadius = 200,
-    FOVVisible = True,
-    ShowSilentAimTarget = True,
-    
-    MouseHitPrediction = false,
-    MouseHitPredictionAmount = 0.165,
-    HitChance = 100
-} 
+    Enabled = true,  -- Enabled by default
+    ToggleKey = "P",  -- Changed toggle key
+    TeamCheck = true,
+    VisibleCheck = true,
+    TargetPart = "HumanoidRootPart",
+    SilentAimMethod = "FindPartOnRayWithIgnoreList",
+    FOVRadius = 200,
+    FOVVisible = true,
+    ShowSilentAimTarget = true,
+    MouseHitPrediction = false,
+    MouseHitPredictionAmount = 0.165,
+    HitChance = 100
+}
 
 -- variables
 getgenv().SilentAimSettings = SilentAimSettings  -- Correct initialization
