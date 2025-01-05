@@ -241,7 +241,7 @@ end
 
 -- ui creating & handling
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/Library.lua"))()
-Library:SetWatermark("github.com/Averiias") 
+Library:SetWatermark("github.com/Ninjalowtaperfade69")
 
 local Window = Library:CreateWindow({Title = 'Universal Silent Aim', Center = true, AutoShow = true, TabPadding = 8, MenuFadeTime = 0.2})
 local GeneralTab = Window:AddTab("General")
