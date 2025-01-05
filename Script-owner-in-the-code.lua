@@ -28,7 +28,7 @@ local SilentAimSettings = {
 } 
 
 -- variables
-getgenv().SilentAimSettings = Settings
+getgenv().SilentAimSettings = SilentAimSettings  -- Correct initialization
 local MainFileName = "UniversalSilentAim"
 local SelectedFile, FileToSave = "", "" 
 
